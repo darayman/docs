@@ -96,6 +96,10 @@ In addition, since you are probably using Tentacle to install software, you'll n
 - Permissions to modify IIS (C:\Windows\system32\inetsrv)
 - Permissions to connect a SQL Server database
 
+For automatic Tentacle updates the account also requires:
+- Manage the Octopus Tentacle service
+
+
 :::problem
 If you **Reinstall** a Tentacle using the Tentacle Manager, the Windows Service account will revert to Local System.
 :::
